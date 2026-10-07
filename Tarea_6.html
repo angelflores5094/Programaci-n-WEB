@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chávez Flores Luis Angel">
+    <title>Listas y formularios</title>
+</head>
+<body>
+    <div>
+        <h3>Listas no ordenadas</h3>
+        <ul>
+            <li>Leche</li>
+            <li>Carne</li>
+            <li>Pan</li>
+            <li>Jámon</li>
+            <li>Papel</li>
+        </ul>
+        <h3>Listas ordenadas</h3>
+        <ol type="I" reversed>
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+            <li>Cuarto</li>
+            <li>Quinto</li>
+        </ol>
+          <ol type="I" start="10">
+            <li>Decimo</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+            <li>Cuarto</li>
+            <li>Quinto</li>
+        </ol>
+        <h3>Listas de definiciones</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Lenguaje de marcado de hipertexto</dd>
+            <dt>CSS</dt>
+            <dd>Hojas de estilo de cascada</dd>
+            <dt>JS</dt>
+            <dd>Java Script</dd>
+        </dl>
+        <h3>Listas anidadas</h3>
+        <p>Desarrollo WEB</p>
+        <ul>
+            <li>FRONTEND</li>
+                <ol type="i">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ol>
+            <li>BACKEND</li>
+                <ol type="a">
+                    <li>NodeJS</li>
+                    <li>MYSQL</li>
+                    <li>ArchLinux</li>
+                </ol>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h2>Formularios</h2>
+        <h3>Formuario de Inicio de Sesión</h3>
+        <form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ" method="get">
+            <label for="username">Nombre de Usuario</label>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
