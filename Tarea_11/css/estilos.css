@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica , sans-serif;
+}
+
+#encabezado{
+    background-color: black;
+    color: white;
+    /* El relleno o padding espacio entre el codino del elemnto y su borde 
+    Se aplican los valores en sentido horario top, right, buttom, left
+    1valor: t, r, b, l  2valores: tb, rl  3valores: t, rl, b*/
+
+    border: 2px dashed rgb(0, 13, 255);
+    padding: 15px 5px 50px 150px ;
+
+    /* margen */
+margin:15px 5px;
+
+border: 10px ridge rgb(238, 164, 176);
+border-top-style: double;
+border-left-color: rgb(160, 107, 209);
+border-right-color: rgb(230, 230, 136);
+border-bottom-width: 5px;
+border-radius: 15%;
+/* 
+    border-style: solid;
+    border-width: 2px;
+    border-color: red; */
+
+    /* Se puede utilizar para crear efectos de sombra alrededor del borde de un elemento, se deben especificar los valores:
+    desplazamiento-horizontal, desplazamiento-vertical, rado-desenfoque, radio-propagación y color */
+    box-shadow: 5px 5px 10px 10px rgb(238, 164, 176);
+}
+.introduccion{
+    border:2px solid gold;
+    background-color: rgb(146, 199, 239);
+    padding: 5px;
+    color: white;
+}
+.introduccion p {
+    width: 300px;
+    height: 150px;
+    border: 2px solid gold;
+    background-color: beige;
+    padding: 5px;
+    color: purple;
+    box-sizing: border-box;
+}
+.introduccion span {
+    width: 500px;
+    height: 150px;
+    border: 2px dotted gold;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+.texto-fuente{
+    background-color: black;
+    color: white;
+}
+
+.propiedades-texto h2{
+    border: 2px solid red;
+    text-align: center;
+    font-family: "Agrave Pro", cursive;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+    text-shadow: 2px 2px 3px white;
+}
+
+.propiedades-texto p{
+    padding: 5px;
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    word-spacing: 15px;
+}
+.propiedades-fuentes h2{
+    padding: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 3px gray;
+    font-family: 'Times Nes Roman';
+}
+.propiedades-fuentes p{
+    padding: 8px;
+    text-align: justify;
+    line-height: 1.5;
+}
