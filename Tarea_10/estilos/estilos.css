@@ -1,0 +1,21 @@
+.fondo-evangelion {
+    background-image: linear-gradient(to top, rgba(89, 175, 232, 0.5), rgba(214, 118, 193, 0.574)), url('../assets/Evangelion.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 2000px;
+    height: 700px;
+}
+
+.fondo-godzilla {
+    background-color: rgba(217, 76, 76, 0.588);
+    background-image: url('../assets/Godzilla.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 500px;
+    height: 1000px;
+    border: 2px solid rgb(71, 122, 223);
+}
